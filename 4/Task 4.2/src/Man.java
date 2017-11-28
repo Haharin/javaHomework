@@ -36,7 +36,7 @@ public class Man extends Human{
     @Override
     public void hangShelf() {
         System.out.println("\nМеня зовут " + getName() +
-                "Беру молоток \n" +
+                "\nБеру молоток \n" +
                 "Ищу гвозди \n" +
                 "Приставляю полку к стене \n" +
                 "Целюсь ударить по гвоздю, но попадаю по пальцу \n" +

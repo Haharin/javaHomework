@@ -80,7 +80,7 @@ public class Main {
         int[] numAB = Arrays.stream(str.split(";")).mapToInt(Integer::parseInt).toArray();
 
         for (Human human:Human.getHumanList()) {
-            if ((human.getAge() >= numAB[0]) || (human.getAge() <= numAB[1])){
+            if ((human.getAge() >= numAB[0]) && (human.getAge() <= numAB[1])){
                 System.out.println(human.getName() + ", " + human.getAge() + " years, " + human.getProfession());
             }
         }
